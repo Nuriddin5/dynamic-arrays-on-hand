@@ -39,7 +39,11 @@ public class Array {
     }
 
     public boolean removeAt(int index) {
+        int[] newArr = new int[--length];
+
+        
         return true;
+
     }
 
     public int indexOf(int number) {
