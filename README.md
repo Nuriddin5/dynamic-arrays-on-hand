@@ -1,1 +1,0 @@
-# dynamic-arrays-on-hand
