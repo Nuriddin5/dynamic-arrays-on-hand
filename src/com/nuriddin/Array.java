@@ -81,4 +81,17 @@ public class Array {
             count--;
         }
     }
+
+    public int max() throws Exception {
+        Integer max = arr.length != 0 ? arr[0] : null;
+        if (max == null) {
+            throw new Exception();
+        }
+        for (int item : arr) {
+            if (item > max) {
+                max = item;
+            }
+        }
+        return max;
+    }
 }
