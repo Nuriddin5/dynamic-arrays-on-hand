@@ -94,4 +94,40 @@ public class Array {
         }
         return max;
     }
+
+    // needed bug fixing
+    public Array intersect(int[] array) {
+
+        //iterate arr
+        //iterate array inside arr iteration
+        //create new finalArr
+        //create counter = 1
+        //counter ++ when items equal
+        //item add finalArr
+        //return finalArr
+
+        Array finalArray = new Array(1);
+
+        for (int itemOfArr : arr) {
+            for (int itemOfArray : array) {
+                if (itemOfArr == itemOfArray
+                ) {
+                    finalArray.insert(itemOfArr);
+                }
+            }
+        }
+
+        return finalArray;
+    }
+
+    public void reverse() {
+        //create new array in same count
+        //iterate arr add items to new array in reversing order
+        // arr =newArr
+        int[] newArr = new int[count];
+        for (int i = 0; i < count; i++) {
+            newArr[count - i - 1] = arr[i];
+        }
+        arr = newArr;
+    }
 }

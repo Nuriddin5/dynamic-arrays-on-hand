@@ -109,17 +109,22 @@ public class Main {
 //        array.removeAt(1);
 //        System.out.println(Arrays.toString(array.getArr()));
 
-//        array.insert(3);
-//        array.insert(30);
-//        array.insert(222);
+        array.insert(3);
+        array.insert(30);
+        array.insert(222);
         try {
             System.out.println(array.max());
         } catch (Exception e) {
             e.printStackTrace();
         }
+        int[] arr = {30,1};
+        array.intersect(arr).print();
 
 //        System.out.println(array.indexOf(22));
 //        System.out.println(array.indexOf(0));
+//        java.lang.reflect.Array array1 = new Array
+        array.reverse();
+        System.out.println(Arrays.toString(array.getArr()));
 
     }
 }
